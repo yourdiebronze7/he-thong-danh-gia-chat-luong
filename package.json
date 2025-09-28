@@ -1,0 +1,19 @@
+{
+  "name": "he-thong-danh-gia-chat-luong",
+  "version": "1.0.0",
+  "description": "Hệ thống đánh giá chất lượng sản phẩm thông qua blockchain.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
