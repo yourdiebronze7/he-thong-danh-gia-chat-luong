@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Quality Assessment System! We hope you enjoy your stay.');
+  res.send('Welcome to the Quality Assessment System! We are glad to have you here.');
 });
 
 app.listen(PORT, () => {
