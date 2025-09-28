@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hệ Thống Đánh Giá Chất Lượng');
+  res.send('Quality Assessment System');
 });
 
 app.listen(PORT, () => {
